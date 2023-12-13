@@ -1,0 +1,62 @@
+.userBDiv{
+    padding-left: 15%;
+    padding-right:15%;
+}
+
+.bgimg{
+
+    height:600px;
+    position:relative;
+}
+
+.up{
+    background-color: #eee;
+    height:80%
+
+}
+
+.down{
+    background-color: white;
+    height:20%;
+}
+
+.icon{
+    position:absolute;
+    height:150px;
+    width:150px;
+    bottom:5%;
+    left: 5%;
+    border: 6px solid white;
+    border-radius:60%;
+    overflow:hidden;
+}
+
+.icon img{
+    height:150px;
+    width:150px;
+}
+
+.aboutPC{
+    height:60px;
+    background-color: #444;
+    display:flex;
+    align-items: center;
+    
+}
+
+.aboutBtn{
+    height:30px;
+    border:#444;
+    border-radius: 10px;
+    margin-left:15px;
+    color:white;
+    background-color: #444;
+}
+.aboutBtn svg{
+    padding-right:3px;
+    fill:white;
+}
+
+.aboutBtn:hover{
+    background-color: lightblue;
+}
